@@ -78,6 +78,7 @@ result_df = result_df.replace({pd.NA: '', pd.NaT: '', float('inf'): '', float('-
 # 手动在“汇总”行的第一个单元格内填入“汇总”字样
 result_df.iloc[-1, 0] = '汇总'
 
+
 # 将DataFrame保存到新的Excel文件
 # 至此统计完成
 output_file_path = r'C:\Users\Administrator.DESKTOP-D6NNI6Q\Desktop\巡检工作量统计.xlsx'
